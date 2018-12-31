@@ -23,4 +23,4 @@ In order to play the game you must download [Processing 3.4+](https://processing
 - [Sound effects](https://www.youtube.com/watch?v=nzjtkaLCn60) were sourced from YouTube channel Brand Name Audio.
 - [League Mono](https://github.com/theleagueof/league-mono), an open source font by Tyler Finck.
 - [VG5000](http://www.velvetyne.fr/fonts/vg5000/), another open source font by Justin Bihan.
-- [List of animals](https://github.com/boennemann/animals) (only used on the backend).
+- [List of animals](https://github.com/kuff/animals) (only used on the backend).
