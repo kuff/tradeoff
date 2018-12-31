@@ -4,3 +4,6 @@
 /sounds.prproj
 /main/README.txt
 /hsapi/db.json
+.DS_Store
+.vscode
+/hsapi/node_modules/
