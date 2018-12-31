@@ -6,33 +6,41 @@
 class MenuScene extends Scene {
   
   MenuScene(Button[] buttons) {
-    super(buttons);
+    super(buttons); // call the parent class contructor with provided variables
   }
   
   @Override
   Element click() {
+    
+    // call parent.click() method and save the response as a Button
     Button clicked = (Button) super.click();
-    if (clicked == null) return null;
+    if (clicked == null) return null; // return if nothing was clicked
+    // change scenes to the appropriate one, determined by the label text on the clicked Button
     switch (clicked.text) {
       
       case "NEW GAME":
+        // navigate to the game screen
         CONTROLLER.scenes[1] = new GameScene(new Game());
         CONTROLLER.setActiveScene(CONTROLLER.scenes[1]);
         break;
       case "SCOREBOARD":
+        // navigate to the scoreboard screen
         CONTROLLER.setActiveScene(CONTROLLER.scenes[2]); // navigate to the scoreboard
         break;
       case "TUTORIAL":
+        // navigate to the tutorial screen
         CONTROLLER.scenes[3] = new TutorialScene(new Game(20));
         CONTROLLER.setActiveScene(CONTROLLER.scenes[3]);
-        break;
       
     }
-    return clicked;
+    return clicked; // return the element that was clicked
+    
   }
   
   @Override
   void render() {
+    
+    // draw the scene, start by clearing the canvas and setting text formatting
     background(COLOR1);
     textFont(FONT3);
     fill(COLOR2);
@@ -50,8 +58,9 @@ class MenuScene extends Scene {
       fill(COLOR2);
       text("Unable to connect to game server! Retrying in " + Math.round((10000 - (millis() - SERVER.timeStamp)) / 1000) + " seconds...", 170, 730);
     }
-    else this.elements[1].setVisibility(true);
-    super.render();
+    else this.elements[1].setVisibility(true); // render the scoreboard if data was retrieved from the api
+    super.render(); // render the elements within the scene
+    
   }
   
 }
