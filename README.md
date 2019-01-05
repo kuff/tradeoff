@@ -9,12 +9,12 @@ A memory game in [Processing 3.4](https://processing.org/) with a [NodeJS](https
 
 There is also a short built in tutorial to get you familiar with the game concepts.
 
-The game is inspired by a similar game developed by the Primate Research Institute at Kyoto University, which is used document the sort-term memory abilities of Champanzees.
-Young champanzees were trained to memorize the location of nine digits, ranging from one to nine, on a screen. These digits were shown on screen for about half a second, but still long enough for the chimps to reassemble them in the correct numerical order once they had been blanked out.
+The game is inspired by a similar game developed by the Primate Research Institute at Kyoto University, which is used document the short-term memory abilities of Champanzees.
+Young champanzees are trained to memorize the location of nine digits, ranging from one to nine, on a screen. These digits were shown on screen for about half a second, but still long enough for the chimps to reassemble them in the correct numerical order once they had been blanked out.
 Human short-term memory is not anywhere close to this effective and an idea of why that might be is known as the **Cognitive Tradeoff Hypothesis**.
 
-This hypothesis details that the development of advanced language in early humans has supplanted the part of the brain dealing with detailed short-term memory, leading to this regional lack of ability.
-Or though the tradeoff ended up in our favour, one can't help but wonder what other animals have cognitive powers that exceed that of the humans mind.
+This hypothesis details that the development of advanced language in early humans has supplanted the part of the brain dealing with detailed short-term memory, leading to a lack of ability in this specific area of cognition.
+Even though the tradeoff ended up in our favour, one can't help but wonder what other animals posses cognitive powers that exceed that of the humans mind.
 
 ## How to play
 In order to play the game you must download [Processing 3.4+](https://processing.org/) and open the project by clicking on one of the *.pde* files inside the *main* folder. In addition to this, you must also download and install the *Minim* sound library from inside the Processing library manager.
