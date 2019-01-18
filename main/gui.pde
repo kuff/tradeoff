@@ -16,7 +16,7 @@ abstract class Element { // the fundamental element in the gui framework
   };
   
   abstract Element click(); // should detail how this element responds to user input
-  abstract void render(); // fancy way of saying "draw"
+  abstract void render(); // should detail how this element looks on screen
   
 }
 

@@ -275,7 +275,7 @@ class TutorialScene extends GameScene {
   TutorialScene(Game game) {
     // initialize instance variables as with the GameScene, but set a seed for the number generator 
     super(game);
-    this.game.numberGenerator.setSeed(20); // not final value
+    this.game.numberGenerator.setSeed(20);
     this.presses = 0;
   }
   

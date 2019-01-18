@@ -30,7 +30,7 @@ void setup() {
   FONT2 = createFont("./fonts/LeagueMono-Regular.ttf", 42);
   FONT3 = createFont("./fonts/VG5000-Regular_web.ttf", 82);
   
-  // this will be visible in case the initial http request hangs
+  // this will be visible in case the initial http request hangs, timing out after five seconds
   textFont(FONT1);
   fill(COLOR1);
   text("LOADING GAME...", 230, 400);
@@ -41,8 +41,7 @@ void setup() {
   COMPLETE_SOUND = minim.loadFile("./sounds/completed.mp3");
   FAIL_SOUND = minim.loadFile("./sounds/failed.mp3");
   
-  // initialize the game API handler
-  SERVER = new Server();
+  SERVER = new Server(); // initialize the game API handler
   
   // attempt to register the client to the server and format the menu screen accordingly
   JSONObject registration = SERVER.register();
@@ -92,7 +91,7 @@ void mousePressed() {
   // push the mouse press event to the appropriate scene
   Element clicked = CONTROLLER.click();
   if (clicked != null) {
-    // if an element is return it means it was clicked and we should play the CLICK_SOUND sound effect
+    // if an element is returned, it means it was clicked and we should play the CLICK_SOUND sound effect
     CLICK_SOUND.rewind();
     CLICK_SOUND.play();
   }
