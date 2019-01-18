@@ -17,7 +17,7 @@ This hypothesis details that the development of advanced language in early human
 Even though the tradeoff ended up in our favour, one can't help but wonder what other animals posses cognitive powers that exceed that of the humans mind.
 
 ## How to play
-In order to play the game you must download [Processing 3.4+](https://processing.org/) and open the project by clicking on one of the *.pde* files inside the *main* folder. In addition to this, you must also download and install the *Minim* sound library from inside the Processing library manager.
+Official game servers are no longer online, but you can still play the game by downloading [Processing 3.4+](https://processing.org/) and opening the project by clicking on one of the *.pde* files inside the *main* folder. In addition to this, you must also download and install the *Minim* sound library from inside the Processing library manager.
 
 ## Credits
 - [Sound effects](https://www.youtube.com/watch?v=nzjtkaLCn60) were sourced from YouTube channel Brand Name Audio.
