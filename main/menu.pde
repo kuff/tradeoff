@@ -6,7 +6,7 @@
 class MenuScene extends Scene {
   
   MenuScene(Button[] buttons) {
-    super(buttons); // call the parent class contructor with provided variables
+    super(buttons); // call the parent class contructor with provided arguments
   }
   
   @Override

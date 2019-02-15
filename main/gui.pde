@@ -9,11 +9,11 @@ abstract class Element { // the fundamental element in the gui framework
   
   boolean isVisible() { // accessor method for convenience
     return this.visible;
-  };
+  }
   
   void setVisibility(boolean value) { // modification method, becomes more useful when overwritten by child elements
     this.visible = value;
-  };
+  }
   
   abstract Element click(); // should detail how this element responds to user input
   abstract void render(); // should detail how this element looks on screen
@@ -82,7 +82,7 @@ class Scene extends Element { // a collection of elements, centrally controlled
   void render() {
     // render the scene by rendering all sub components
     for (Element element : elements) if (element.isVisible()) element.render();
-  };
+  }
   
 }
 
