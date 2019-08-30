@@ -1,5 +1,5 @@
 # tradeoff
-A memory game in [Processing 3.4](https://processing.org/) with a [NodeJS](https://nodejs.org/en/) backend - an exam project for the first semester at Medialogy @ Aalborg Univerity.
+A memory game in [Processing 3.4](https://processing.org/) with a [NodeJS](https://nodejs.org/en/) backend - an exam project for the first semester at Medialogy @ Aalborg Univerity. Watch the [video](https://www.youtube.com/watch?v=qWbPHvrbuq4&feature=youtu.be)!
 
 ## About
 **TRADEOFF** is a game where you are asked to remember a sequence of digits of varying difficulty.
